@@ -1,7 +1,7 @@
 
-# mathml2latex
+# mathml-to-latex
 
-It's a javascript library to convert mathML to latex
+基于JavaScript将MathML转为Latex语言，由mathml2latex基础上修改，修复了部分问题。
 
 ## Build
 

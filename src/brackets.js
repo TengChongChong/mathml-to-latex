@@ -1,7 +1,7 @@
 
 const Brackets = {
-  left: ['(', '[', '{', '|', '‖', '⟨', '⌊', '⌈', '⌜'],
-  right: [')', ']', '}', '|', '‖', '⟩', '⌋', '⌉', '⌝'],
+  left: ['(', '[', '{', '|', '‖', '⟨', '⌊', '⌈', '⌜', ""],
+  right: [')', ']', '}', '|', '‖', '⟩', '⌋', '⌉', '⌝', ""],
   isPair: function(l, r){
     const idx = this.left.indexOf(l);
     return r === this.right[idx];
@@ -35,6 +35,9 @@ const Brackets = {
         break;
       case '⌜': r = '\\left\\ulcorner ';
         break;
+      default:
+        r = '\\left. ';
+        break
     }
     return (stretchy ? r : r.replace('\\left', ''));
   },
@@ -58,6 +61,9 @@ const Brackets = {
       case '⌉': r = ' \\right\\rceil';
         break;
       case '⌝': r = ' \\right\\urcorner';
+        break;
+      default:
+        r = " \\right. ";
         break;
     }
     return (stretchy ? r : r.replace('\\right', ''));

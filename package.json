@@ -1,21 +1,21 @@
 {
-  "name": "mathml2latex",
-  "version": "1.1.3",
+  "name": "convert-mathml-to-latex",
+  "version": "1.1.4",
   "description": "Convert mathml to latex.",
-  "author": "Mika",
+  "author": "tengcc",
   "license": "MIT",
   "keywords": [
     "converter",
     "mathml",
     "latex"
   ],
-  "homepage": "https://github.com/mika-cn/mathml2latex",
+  "homepage": "https://github.com/TengChongChong/mathml-to-latex",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mika-cn/mathml2latex.git"
+    "url": "https://github.com/TengChongChong/mathml-to-latex.git"
   },
   "bugs": {
-    "url": "https://github.com/mika-cn/mathml2latex/issues"
+    "url": "https://github.com/TengChongChong/mathml-to-latex/issues"
   },
   "main": "lib/mathml2latex.cjs.js",
   "module": "lib/mathml2latex.es.js",
